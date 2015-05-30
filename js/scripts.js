@@ -25,10 +25,11 @@ $('a[href*=#]:not([href=#])').click(function() {
             $('.scroll-up').show();
         }
 
-        if (this.hash === '#portfolio-section') {
+        // if (this.hash === '#portfolio-section') {
+        // Should we do this only for home and portfolio-section ? or any hash?
             $('.portfolio-overview').show();
-            $('#patelco-section-placeholder').hide();
-        }
+            $('.content-placeholder').hide();
+        // }
 
         // activate animations in this section
         target.find('.animate').delay(1200).addClass('animated');
@@ -46,7 +47,7 @@ $('a[data-side-load=true]').click(function(event) {
         placeHolderSelector = target.data('place-holder-selector'),
         placeHolder = $(placeHolderSelector);
     if (!placeHolder.data('loaded')) {
-        $('#patelco-section-placeholder').load( href + ' #portfolio-section', function () {
+        placeHolder.load( href + ' #portfolio-section', function () {
             placeHolder.data('loaded', true);
         });
     }
