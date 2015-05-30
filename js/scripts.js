@@ -22,13 +22,13 @@ $('a[href*=#]:not([href=#])').click(function() {
             $('.scroll-up').hide();
         }
         else {
-                $('.scroll-up').show();
+            $('.scroll-up').show();
         }
 
         // activte animations in this section
         target.find('.animate').delay(1200).addClass('animated');
         setTimeout(function(){
-                target.find('.animated').removeClass('animated');
+            target.find('.animated').removeClass('animated');
         },2000);
 
         return false;
