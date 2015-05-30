@@ -258,5 +258,17 @@ body {
 }
 
 h3.larger {
-  font-size: 33px;
+    font-size: 33px;
+}
+
+.quote {
+    font-size: 27px;
+    border: solid;
+    text-align: center;
+    color: grey;
+    border-color: grey;
+}
+
+ul {
+    padding-left: 20px;
 }
