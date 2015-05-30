@@ -29,7 +29,7 @@
         </div>
         <div class="navbar-collapse collapse" id="navbar-collapsible">
             <ul class="nav navbar-nav navbar-left">
-                <li><a href="#">Home</a></li>
+                <li><a href="#home-section">Home</a></li>
                 <!-- <li><a href="#section2">About me</a></li> -->
                 <li><a href="#portfolio-section">Portfolio</a></li>
                 <li><a href="https://www.linkedin.com/in/carinacasco" target="_blank">Resume</a></li>
@@ -63,7 +63,7 @@
                 <i class="fa fa-angle-down fa-2x"></i>
             </span>
         </div>
-        </a>
+    </a>
 </section>
 
 
@@ -86,12 +86,18 @@
     </div>
 </section> -->
 
-<section class="container-fluid portfolio" id="portfolio-section">
+<div id="portfolio-section"></div>
+<section class="container-fluid portfolio-overview">
     TODO: portfolio goes here.<br>
-    See <a href="patelco">Patelco</a><br>
+    See <a href="patelco" data-side-load="true" data-place-holder-selector="#patelco-section-placeholder">Patelco</a><br>
     See <a href="plush-care">Plush Care</a><br>
     See <a href="proto-hack">Proto Hack</a><br>
 </section>
+
+<div class="content-placeholder" id="patelco-section-placeholder">
+    <!-- TODO: add loader -->
+    Hidden initially. Populated dynamically with the contents from patelco.html#portfolio-section
+</div>
 
 <!--
 <section id="section4">

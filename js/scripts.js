@@ -25,7 +25,12 @@ $('a[href*=#]:not([href=#])').click(function() {
             $('.scroll-up').show();
         }
 
-        // activte animations in this section
+        if (this.hash === '#portfolio-section') {
+            $('.portfolio-overview').show();
+            $('#patelco-section-placeholder').hide();
+        }
+
+        // activate animations in this section
         target.find('.animate').delay(1200).addClass('animated');
         setTimeout(function(){
             target.find('.animated').removeClass('animated');
@@ -33,4 +38,19 @@ $('a[href*=#]:not([href=#])').click(function() {
 
         return false;
     }
+});
+
+$('a[data-side-load=true]').click(function(event) {
+    var target = $(event.target),
+        href = target.attr('href'),
+        placeHolderSelector = target.data('place-holder-selector'),
+        placeHolder = $(placeHolderSelector);
+    if (!placeHolder.data('loaded')) {
+        $('#patelco-section-placeholder').load( href + ' #portfolio-section', function () {
+            placeHolder.data('loaded', true);
+        });
+    }
+    placeHolder.show();
+    $('.portfolio-overview').hide();
+    return false;
 });

@@ -132,6 +132,10 @@ section {
     transform-style: preserve-3d;
 }
 
+.content-placeholder {
+    min-height: 100%;
+}
+
 @media (min-width:768px) {
     .v-center {
         height: 50%;
@@ -161,12 +165,12 @@ section {
     background-color: rgba(0,0,0,0.9);
 }
 
-#portfolio-section {
+#portfolio-section, .portfolio-overview {
     background-color: #fff;
 }
 
 #section6 {
-        background-color: #eee;
+    background-color: #eee;
     min-height:130px;
     padding-top:40px;
     padding-bottom:40px;
@@ -271,4 +275,8 @@ h3.larger {
 
 ul {
     padding-left: 20px;
+}
+
+#patelco-section-placeholder {
+    display: none;
 }
