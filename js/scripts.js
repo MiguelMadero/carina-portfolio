@@ -18,7 +18,7 @@ $('a[href*=#]:not([href=#])').click(function() {
             scrollTop: target.offset().top - 50
         }, 800);
 
-        if (this.hash === '#section1') {
+        if (this.hash === '#home-section') {
             $('.scroll-up').hide();
         }
         else {
