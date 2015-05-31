@@ -292,6 +292,16 @@ strong {
   margin-top: 40px;
 }
 
+.survey-summary {
+  font-family: Arial;
+  border: solid;
+  color: grey;
+  border-color: grey;
+  padding: 10px;
+  border-width: thin;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
 
 /*loading stuff*/
 .loader:before,
