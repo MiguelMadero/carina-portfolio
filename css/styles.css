@@ -248,6 +248,7 @@ footer .nav>li>a:hover {
 
 h2, h3 {
     font-family: 'Bitter', serif;
+    color: #000;
 }
 
 h2 {
@@ -280,6 +281,15 @@ ul {
 
 .content-placeholder {
     display: none;
+}
+
+strong {
+  color: #000;
+}
+
+.disclaimer {
+  font-family: Arial;
+  margin-top: 40px;
 }
 
 
