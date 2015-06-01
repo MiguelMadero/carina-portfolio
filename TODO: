@@ -1,9 +1,6 @@
 TODO:
-[ ] Add group image as parallax
-    Overlay negro similar at Bootstrap (http://www.codeply.com/view/DRBmOoChfM)
-    Logo the patelco debajo del text
-    Texto blanco con "Patelco Case Study"
-    Seguido del equipo, seguido de summary details
+[x] Add group image as parallax
 [ ] Hacela rapida
-[ ] Cambiar imagen del cafe por https://download.unsplash.com/photo-1428452788387-375d846a8ab4
-[ ]
+[x] Cambiar imagen del cafe por https://download.unsplash.com/photo-1428452788387-375d846a8ab4
+[ ] Links a Patelco y PlushCare
+[ ] About me
