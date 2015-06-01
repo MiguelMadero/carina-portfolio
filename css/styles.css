@@ -3,11 +3,14 @@
 
 html,body {
     height:100%;
-    background:center no-repeat fixed url('/images/main-bg.jpg');
-    background-size: cover;
     color:#444;
     /*font-family: 'Lato', sans-serif;*/
     font-family: 'Bitter', serif;
+}
+
+body:not(.plush-care) {
+  background:center no-repeat fixed url('/images/main-bg.jpg');
+  background-size: cover;
 }
 
 .portfolio-plushcare {
