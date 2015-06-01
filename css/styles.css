@@ -241,11 +241,26 @@ footer .nav>li>a:hover {
     margin-right: auto;
 }
 
+.centered-image {
+  display: block;
+  /*Center the image*/
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.problem-and-solution-section, .problem-statement-and-iterations-section {
+
+.problem-and-solution-section, .problem-statement-and-iterations-section,
+.pc-research-section {
     background-color: #f6f6f6;
 }
 
+.pc-research-section {
+  padding-bottom: 20px;
+}
+
+#home-section h2 {
+  color: #fff;
+}
 h2, h3 {
     font-family: 'Bitter', serif;
     color: #000;
@@ -277,6 +292,12 @@ h3.larger {
 
 ul {
     padding-left: 20px;
+}
+
+ul.research-findings {
+  padding: 15px;
+  padding-left: 25px;
+  background-color: fff;
 }
 
 .content-placeholder {

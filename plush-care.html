@@ -52,7 +52,7 @@
 <section class="container-fluid portfolio" id="portfolio-section">
     <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
-            <h2 class="text-center">Patelco Case Study</h2>
+            <h2 class="text-center">PlushCare Case Study</h2>
             <hr>
         </div>
     </div>
@@ -76,30 +76,62 @@
             <p>PlushCare is a Telemedicine company  that allows patients to receive medical consultations from doctors remotely from a web application.</p>
 
             <p>We were specifically asked to design for the perspective of the doctors. The client wants to create a simpler, streamlined experience for doctors offering efficiency, better productivity and a more flexible product.</p>
+        </div>
+    </div>
 
+    <div class="row spacer pc-research-section">
+        <div class="col-sm-8 col-sm-offset-2">
             <h3>Research</h3>
             <p>We interviewed  the stakeholders where we learned Plushcare doctors use an electronic health records (EHR) platform called Practice Fusion to have all the patients information and use Plushcare for their calendar appointments,  conduct the actual consultation and prescribe medication.</p>
 
             <p>Also we learned there is not an “on the go” product so doctors don’t have flexibility to conduct consultations out of their desktop.</p>
 
-            <!-- TODO: photo PF next to desktop photo -->
+            <div class="row text-center">
+                <div class="col-sm-6">
+                    <div class="panel panel-default slideInRight animate">
+                        <div class="panel-heading">
+                            PlushCare
+                        </div>
+                        <div class="panel-body">
+                            <img class="img-responsive" src="images/plush-care/pc-patient-summary.png"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="panel panel-default slideInLeft animate">
+                        <div class="panel-heading">
+                            Practice Fusion
+                        </div>
+                        <div class="panel-body">
+                            <img class="img-responsive" src="images/plush-care/pf-dashboard.png"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <p>We needed to know more about our main user and we conducted interviews with PlushCare doctors. They expressed that:</p>
-            <ul>
+            <ul class="research-findings">
                 <li>Toggling between PlushCare and Practice Fusion in order to coordinate patient information can be inconvenient,</li>
                 <li>The communication process between patient and doctor for follow up can be difficult at times.</li>
                 <li>There's difficulty to take soap notes.</li>
             </ul>
 
+            <br>
+            <br>
+
             <p>We couldn't leave other doctors away from our research, so we interviewed non-PlushCare doctors and we identified:</p>
-            <ul>
+            <ul class="research-findings">
                 <li>What is the standard process in doctor/patient consultation,</li>
                 <li>What is the most relevant information for doctor’s to have on hand before and during the consultation,</li>
                 <li>What methods do doctors use in order to take accurate SOAP notes</li>
             </ul>
 
             <p>From our interview results we  also uncover the importance of reviewing medical history before a consultation.</p>
+        </div>
+    </div>
 
+    <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
             <h3>First Hypothesis</h3>
         </div>
         <div class="col-sm-6 col-sm-offset-3">
@@ -112,7 +144,11 @@
             <!-- TODO: review Instead of saying it "resolves" the integration, it might be more accurate to say "a website that showed the integration of Practice Fusion".  -->
             <p>Based on our first hypothesis we worked on a responsive website design that resolves Practice Fusion integration, patient doctor communication and soap notes. We learned that Practice Fusion was working in a API so we assumed having this integration in to PlushCare will facilitate doctor’s job.</p>
 
-            <!-- TODO: *photo sketches in the wall -->
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <img class="img-responsive img-thumbnail" src="images/plush-care/sketches.jpg"/>
+                </div>
+            </div>
 
             <p><strong>Challenges in our design process:</strong> after presenting our ideas in design studio, a lot of gaps were exposed and we found our approach wasn’t very clear so we decided to investigate more.</p>
 
@@ -131,11 +167,13 @@
             <h3>Persona</h3>
             <p>After this research we build our persona</p>
 
-            <!-- TODO: pic persona -->
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <img class="img-responsive img-thumbnail" src="images/plush-care/persona.png"/>
+                </div>
+            </div>
 
-            <p>We created a new user flow for Denise based on her points and cover the 3 key findings from our design process.</p>
-
-            <!-- TODO: pic user flow photo -->
+            <p>Based on Denise paint points we worked on the 3 key findins.</p>
         </div>
 
         <div class="col-sm-6 col-sm-offset-3">
@@ -149,7 +187,11 @@
             <p>We conducted a survey and learned that more than 90% of doctors would find a mobile version of the application useful as they can conduct consultations on-the-go. The majority of them also would prefer using their smartphone, rather than a tablet.</p>
             <p>This information helped us formulate our first hypothesis which is PlushCare doctors would prefer the flexibility to conduct their consultations on-the-go.</p>
 
-            <!-- TODO: mobile photo -->
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <img class="img-responsive centered-image img-thumbnail" src="images/plush-care/mobile-patient-info.png"/>
+                </div>
+            </div>
         </div>
 
         <div class="col-sm-6 col-sm-offset-3">
@@ -164,7 +206,28 @@
             <p>We did some research in how we can offer to doctors easy access to the primary information they need during a remote consultation. We found Practice Fusion is already working in API so we decided to assume this will happen and worked in the data integration.</p>
             <p>We continued doing some research about what is the critical patient information doctor needs to have quick access and we added this to our design.</p>
 
-            <!-- TODO: PF mobile app photo -->
+            <div class="row text-center">
+                <div class="col-sm-6">
+                    <div class="panel panel-default slideInLeft animate">
+                        <div class="panel-heading">
+                            Practice Fusion's patient summary.
+                        </div>
+                        <div class="panel-body">
+                            <img class="img-responsive img-thumbnail centered-image" src="images/plush-care/pf-patient-summary.png"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="panel panel-default slideInRight animate">
+                        <div class="panel-heading">
+                            PlushCare's patient summary.
+                        </div>
+                        <div class="panel-body">
+                            <img class="img-responsive img-thumbnail centered-image" src="images/plush-care/pc-mobile-patient-summary.png"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="col-sm-6 col-sm-offset-3">
@@ -178,7 +241,11 @@
 
             <p>After conducting several interviews with doctors, we learned that they are very busy people. They see on average 15-30 patients a day. This is why it is fairly common for doctors to dictate after a consultation with a patient. The dictation is simply an audio record for doctors to remind themselves about the details of their appointments.</p>
 
-            <!-- TODO: recording feature photo -->
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <img class="img-responsive centered-image img-thumbnail" src="images/plush-care/pc-mobile-recording.png"/>
+                </div>
+            </div>
         </div>
 
         <div class="col-sm-8 col-sm-offset-2">
