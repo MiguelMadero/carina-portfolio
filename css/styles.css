@@ -8,7 +8,12 @@ html,body {
     color:#444;
     /*font-family: 'Lato', sans-serif;*/
     font-family: 'Bitter', serif;
+}
 
+.portfolio-plushcare {
+  background:center no-repeat fixed url('/images/plush-care/pc-paralax.jpeg');
+  background-size: cover;
+  padding-bottom: 0px;
 }
 
 @media (min-width:768px) {
@@ -165,9 +170,19 @@ section {
 #section2 {
     background-color: rgba(0,0,0,0.9);
 }
-
 #portfolio-section, .portfolio-overview {
     background-color: #fff;
+}
+#portfolio-section.portfolio-plushcare {
+    background-color: rgba(0,0,0,0);
+    padding-top: 50px;
+}
+
+#portfolio-section .splash-screen {
+  padding-top: 50px;
+  min-height: 100%;
+  color: white;
+  background-color: rgba(0,0,0,0.7);
 }
 
 #section6 {
@@ -204,7 +219,7 @@ footer .nav>li>a:hover {
 }
 
 .spacer {
-    margin-top: 40px;
+    padding-top: 40px;
 }
 
 .persona-image {
@@ -256,9 +271,16 @@ footer .nav>li>a:hover {
   margin-right: auto;
 }
 
+.pc-client-section, .pc-hypothesis-section, .pc-prototype-section {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background-color: #fff;
+}
 
 .problem-and-solution-section, .problem-statement-and-iterations-section,
 .pc-research-section, .pc-persona-section {
+    padding-top: 40px;
+    padding-bottom: 20px;
     background-color: #f6f6f6;
 }
 
