@@ -215,6 +215,10 @@ footer .nav>li>a:hover {
     background-color: #D0A09C;
 }
 
+.panel-default>.panel-heading--grey {
+  background-color: #f6f6f6;
+}
+
 .img-photo {
     border: solid;
 }
@@ -241,6 +245,10 @@ footer .nav>li>a:hover {
     margin-right: auto;
 }
 
+.mobile-image {
+  max-height: 500px;
+}
+
 .centered-image {
   display: block;
   /*Center the image*/
@@ -250,7 +258,7 @@ footer .nav>li>a:hover {
 
 
 .problem-and-solution-section, .problem-statement-and-iterations-section,
-.pc-research-section {
+.pc-research-section, .pc-persona-section {
     background-color: #f6f6f6;
 }
 
@@ -261,7 +269,7 @@ footer .nav>li>a:hover {
 #home-section h2 {
   color: #fff;
 }
-h2, h3 {
+h2, h3, h4 {
     font-family: 'Bitter', serif;
     color: #000;
 }
@@ -297,7 +305,13 @@ ul {
 ul.research-findings {
   padding: 15px;
   padding-left: 25px;
-  background-color: fff;
+  background-color: #fff;
+}
+
+ul.survey-results {
+  padding: 15px;
+  padding-left: 25px;
+  background-color: #F6F6F6;
 }
 
 .content-placeholder {
@@ -322,6 +336,27 @@ strong {
   border-width: thin;
   margin-top: 20px;
   margin-bottom: 30px;
+}
+
+.highligted-block {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  font-size: 20px;
+  color: #000;
+}
+/*.highligted-block:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}*/
+.highligted-block p {
+  display: inline;
 }
 
 /*loading stuff*/
