@@ -407,6 +407,12 @@ strong {
   margin-bottom: 30px;
 }
 
+/*Font Awesome*/
+a .fa, a fa:hover {
+  color: white;
+}
+
+/*Quotes and Highlighted blocks*/
 .highligted-block {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
