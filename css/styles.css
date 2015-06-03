@@ -38,11 +38,21 @@ a:hover {
 }
 
 .btn-danger {
-    background-color:#f44d3c;
+    background-color: #C2A6A6;
+    border-color: #C2A6A6;
+}
+
+.btn-danger.active, .btn-danger.focus, .btn-danger:active, .btn-danger:focus, .btn-danger:hover {
+  background-color: #C2A6A6;
+  border-color: #C2A6A6;
 }
 
 .text-danger, a.text-danger {
-    color:#f44d3c;
+    color:#C2A6A6;
+}
+
+a.text-danger:hover {
+  color: #ACAED6;
 }
 
 .btn-huge {
@@ -70,16 +80,16 @@ a:hover {
 
 .navbar-trans .navbar-brand, .navbar-trans >.container-fluid .navbar-brand {
     padding: 14px;
-    color:#f44d3c;
+    color:#C2A6A6;
 }
 
 .navbar-trans li>a:focus,.navbar-trans li.active {
-    background-color:#f44d3c;
+    background-color:#C2A6A6;
     color:#333;
 }
 
 .navbar-trans li>a:hover {
-    background-color:#f44d3c;
+    background-color:#C2A6A6;
     color:#fff;
     opacity:0.5;
 }
@@ -155,12 +165,10 @@ section {
     }
     .v-center2 {
         /*Similar hack as above, but with padding, works better, sometimes*/
-        /*height: 50%; */
         padding-top: 10%;
         padding-bottom: 10%;
         overflow: visible;
         margin: auto;
-        position: absolute;
         top: 0;
         left: 0;
         bottom: 0;
@@ -187,7 +195,7 @@ section {
 }
 
 #section2, #contact-section {
-    background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0,0,0,0.7);
 }
 
 #portfolio-overview, {
@@ -221,7 +229,7 @@ section {
 }
 
 #section7 {
-    background-color: #f44d3c;
+    background-color: rgba(194, 166, 166, 0.7);
     color: #f6f6f6;
     min-height:130px;
     padding-top:40px;
@@ -238,7 +246,7 @@ footer {
 
 footer .nav>li>a {
     padding: 3px;
-    color: #f44d3c;
+    color: #C2A6A6;
 }
 
 footer .nav>li>a:hover {
@@ -255,7 +263,7 @@ footer .nav>li>a:hover {
 }
 
 .panel-default>.panel-heading {
-    background-color: #D0A09C;
+    background-color: #C2A6A6;
 }
 
 .panel-default>.panel-heading--grey {
@@ -384,12 +392,8 @@ strong {
   margin-top: 40px;
 }
 
-.contact-section p {
+.contact-section p, .about-section p {
   font-size: larger;
-}
-
-.contact-section .btn {
-  background-color: transparent;
 }
 
 .survey-summary {
@@ -421,6 +425,27 @@ strong {
   vertical-align: -0.4em;
 }*/
 .highligted-block p {
+  display: inline;
+}
+
+.quoted-block {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  font-size: 20px;
+  color: #000;
+}
+.quoted-block:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+.quoted-block p {
   display: inline;
 }
 
