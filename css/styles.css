@@ -158,7 +158,7 @@ section {
     }
 }
 
-#home-section, #section2, #portfolio-overview {
+#home-section, #section2, #portfolio-overview, #contact-section {
     background-color: rgba(0,0,0,0.1);
     color:#fff;
     font-family: 'Bitter', serif;
@@ -169,13 +169,18 @@ section {
     color:#444;
 }
 
-#section3 {
+#section3, #about-section {
     background-color: #fff;
 }
 
-#section2, #portfolio-overview {
+#section2, #contact-section {
     background-color: rgba(0,0,0,0.9);
 }
+
+#portfolio-overview, {
+  background-color: rgba(0,0,0,0.3);
+}
+
 #portfolio-section{
     background-color: #fff;
 }
@@ -305,7 +310,7 @@ footer .nav>li>a:hover {
   padding-bottom: 20px;
 }
 
-#home-section h2 {
+#home-section h2, #contact-section h2 {
   color: #fff;
 }
 h2, h3, h4 {
@@ -364,6 +369,14 @@ strong {
 .disclaimer {
   font-family: Arial;
   margin-top: 40px;
+}
+
+.contact-section p {
+  font-size: larger;
+}
+
+.contact-section .btn {
+  background-color: transparent;
 }
 
 .survey-summary {
