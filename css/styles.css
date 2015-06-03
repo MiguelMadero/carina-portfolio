@@ -153,6 +153,19 @@ section {
         position: absolute;
         top: 0; left: 0; bottom: 0; right: 0;
     }
+    .v-center2 {
+        /*Similar hack as above, but with padding, works better, sometimes*/
+        /*height: 50%; */
+        padding-top: 10%;
+        padding-bottom: 10%;
+        overflow: visible;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
     .home-section .v-center {
         height: 70%;
     }
