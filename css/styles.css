@@ -296,6 +296,10 @@ footer .nav>li>a:hover {
     margin-right: auto;
 }
 
+.img-patelco-hifi, .video-patelco {
+  max-width: 100%;
+}
+
 .mobile-image {
   max-height: 500px;
 }
