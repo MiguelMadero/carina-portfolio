@@ -1,2 +1,22 @@
-Original version of template:
-http://www.codeply.com/view/DRBmOoChfM
+# Pre-requisites and Setup
+
+* Install [GIT](https://git-scm.com/downloads)
+* Setup a [GitHub Account](https://github.com/join)
+* Install [NodeJS](https://nodejs.org/download/)
+* From the terminal install the following via npm
+    ```
+    npm install -g divshot http-server
+    ```
+* Clone the portfolio. From the terminal `git clone https://github.com/MiguelMadero/carina-portfolio.git`
+* Login to divshot. From the terminal `divshot login` then authorize it on the website that will open
+
+
+# Working with the Portfolio
+
+* From the terminal `cd carina-portfolio/`
+* From the terminal run `http-server`. This lets you preview the site locally: [http://localhost:8080/](http://localhost:8080/)
+* Open `carina-portfolio` in Sublime
+* Make the changes
+* Review the changes locally: [http://localhost:8080/](http://localhost:8080/)
+* Publish to divshot, from the terminal run `divshot push production`
+* Review changes in [carinacasco.com](http://www.carinacasco.com/)
