@@ -5,10 +5,10 @@
 * Install [NodeJS](https://nodejs.org/download/)
 * From the terminal install the following via npm
     ```
-    npm install -g divshot http-server
+    npm install -g http-server
     ```
 * Clone the portfolio. From the terminal `git clone https://github.com/MiguelMadero/carina-portfolio.git`
-* Login to divshot. From the terminal `divshot login` then authorize it on the website that will open
+* Publish to master (GitHub will pick the changes and publish them)
 
 
 # Working with the Portfolio
@@ -18,5 +18,4 @@
 * Open `carina-portfolio` in Sublime
 * Make the changes
 * Review the changes locally: [http://localhost:8080/](http://localhost:8080/)
-* Publish to divshot, from the terminal run `divshot push production`
 * Review changes in [carinacasco.com](http://www.carinacasco.com/)
