@@ -156,6 +156,13 @@ section {
 }
 
 @media (min-width:768px) {
+    /* overrides crazy specific style from bootstrap */
+    .navbar-nav>li>a.linkedin-icon {
+        padding-left: 0px;
+    }
+    .navbar .container {
+        width: auto;
+    }
     .v-center {
         height: 50%;
         overflow: visible;
