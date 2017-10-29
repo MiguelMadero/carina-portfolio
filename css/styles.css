@@ -523,3 +523,13 @@ a .fa, a fa:hover {
     box-shadow: 0 2.5em 0 0 rgb(241, 46, 61);
   }
 }
+
+.download-resume {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+
+.download-resume i:hover {
+  color: #2c0b0b;
+}
