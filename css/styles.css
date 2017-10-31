@@ -526,6 +526,10 @@ a .fa, a fa:hover {
   top: 20px;
 }
 
+.download-resume i {
+  color: #ddd;
+}
+
 .download-resume i:hover {
   color: #2c0b0b;
 }
